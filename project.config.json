@@ -12,9 +12,9 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.0",
+	"libVersion": "2.0.4",
 	"appid": "wx75221c8ecddbf3d2",
-	"projectname": "SecondHandBook",
+	"projectname": "MiniTestNoCloud",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
