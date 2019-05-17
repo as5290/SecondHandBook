@@ -12,25 +12,25 @@ Page({
     },
     cartInfoList:[{
         picSrc: "../../image/book1.png",
-        bookName: "图书1",
+        bookName: "共产党宣言",
         author:"cuteBug",
         press:"BIT",
         price:15.50
       },{
         picSrc: "../../image/book11.png",
-        bookName: "图书2",
+        bookName: "博弈论",
         author: "cuteBug",
         press: "BIT",
         price: 16.00
       },{
         picSrc: "../../image/book18.png",
-        bookName: "图书3",
+        bookName: "围城",
         author: "cuteBug",
         press: "BIT",
         price: 17.00
       },{
         picSrc: "../../image/book4.png",
-        bookName: "图书4",
+        bookName: "中国哲学史",
         author: "cuteBug",
         press: "BIT",
         price: 18.70

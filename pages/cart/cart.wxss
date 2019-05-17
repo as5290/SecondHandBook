@@ -11,11 +11,13 @@
   width: 100%;
   height:250rpx;
   border-bottom: 2rpx solid #909399;
+  margin-bottom: 10rpx;
 }
 
 .checkBtnContainer{
   width:10%;
   height:100%;
+  /* background-color: #FF0000; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +26,7 @@
 .picContainer{
   width:30%;
   height: 100%;
+  /* background-color: #00FF00; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,10 +35,12 @@
 .infoContainer{
   width:60%;
   height:100%;
+  /* background-color: #0000FF; */
   display: flex;
   flex-direction:column;
   font-size: 30rpx!important;
   padding-left: 30rpx;
+  position: relative;
 }
 
 checkbox{
@@ -43,21 +48,30 @@ checkbox{
 }
 
 .pictures{
-  height:calc(100% - 20rpx); 
+  height:calc(100% - 30rpx); 
   width: 100%;
 }
 
-.infoAuthorContainer, .infoPressContainer{
+.infoAuthorContainer{
   display: flex;
   flex-direction:row;
+  margin-top: 10rpx;
+}
+
+.infoPressContainer{
+  display: flex;
+  flex-direction:row;
+  margin-top: 5rpx;
 }
 
 .infoPriceContainer{
   display: flex;
   flex-direction:row;
-
+  margin-bottom: 5rpx;
+  position: absolute;
+  bottom: 20rpx;
 }
 
 .infoNameContainer{
-
+  margin-top: 16rpx;
 }

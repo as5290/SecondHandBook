@@ -28,7 +28,6 @@
           <view><text decode="{{true}}">￥&ensp;</text></view>
           <view>{{item.price}}</view>
         </view>
-        <view class="fontNickname">123123123</view>
       </view>
     </view>
   </checkbox-group>
