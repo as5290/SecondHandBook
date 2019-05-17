@@ -1,0 +1,35 @@
+<!--pages/Cart/Cart.wxml-->
+<view style='font-size:0;'>
+  <image
+    mode="{{topImg.mode}}"
+    src="{{topImg.src}}" 
+    id="topImg" />
+  <checkbox-group bindchange="checkboxChange" >
+    <view class="cartListItem" wx:for="{{cartInfoList}}">
+      <view class="checkBtnContainer">
+        <checkbox value="{{index}}"></checkbox>
+      </view>
+
+      <view class="picContainer">
+        <image src="{{item.picSrc}}" mode="scaleToFill" class="pictures" />
+      </view>
+
+      <view class="infoContainer">
+        <view class="infoNameContainer fontTitle">{{item.bookName}}</view>
+        <view class="infoAuthorContainer fontItemDetail">
+          <view>作者：</view>
+          <view>{{item.author}}</view>
+        </view>
+        <view class="infoPressContainer fontItemDetail">
+          <view>出版社：</view>
+          <view>{{item.press}}</view>
+        </view>
+        <view class="infoPriceContainer fontPrice">
+          <view><text decode="{{true}}">￥&ensp;</text></view>
+          <view>{{item.price}}</view>
+        </view>
+        <view class="fontNickname">123123123</view>
+      </view>
+    </view>
+  </checkbox-group>
+</view>

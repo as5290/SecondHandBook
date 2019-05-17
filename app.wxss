@@ -8,3 +8,29 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.fontTitle{
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #303133;
+}
+
+.fontItemDetail{
+  font-size: 30rpx;
+  color: #606266;
+}
+
+.fontDetail{
+  font-size: 30rpx;
+  color: #303133;
+}
+
+.fontPrice{
+  color: #FF0000;
+  font-size: 32rpx;
+}
+
+.fontDate, .fontNickname{
+  color: #303133;
+  font-size: 26rpx;
+}
